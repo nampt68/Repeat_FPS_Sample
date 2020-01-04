@@ -8,7 +8,7 @@ For more information, visit below website.
 
 https://nampt.tistory.com
 
-Tested with Unit 2018.3.14f1. 
+Tested with Unity 2018.3.14f1. 
 
 The packages are used from Unity FPS Sample, not by downloading from Package Manager.
 
