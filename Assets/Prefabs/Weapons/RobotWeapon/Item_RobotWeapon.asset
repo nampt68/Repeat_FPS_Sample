@@ -16,7 +16,7 @@ MonoBehaviour:
   prefabServer:
     guid: 
   prefabClient:
-    guid: 
+    guid: e5d227c1aef443642b61858f660e4d1e
   prefab1P:
     guid: 
   abilityPrimFire: {fileID: 0}
