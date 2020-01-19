@@ -14298,7 +14298,7 @@ ParticleSystemRenderer:
   m_Mesh2: {fileID: 0}
   m_Mesh3: {fileID: 0}
   m_MaskInteraction: 0
---- !u!114 &821093222060691122
+--- !u!114 &821093222060691116
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -14307,9 +14307,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 6261411397578974356}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5bf10cdea1344482e91a4f2b58506b77, type: 3}
+  m_Script: {fileID: 11500000, guid: 1a1b51c963888964296f7203eb73c860, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  geomtry: {fileID: 6261411397578974338}
+  itemAttachBone: {fileID: 0}
+  uiPrefabs:
+  - {fileID: 5292656849797292724, guid: 4dda50ef4a9c4b74dbe730b463868974, type: 3}
+  - {fileID: 6495234164675305832, guid: 2e97dde106aa9f14fa8f6f801a87d29a, type: 3}
+  weaponBoneDebug: {fileID: 0}
+  weaponOffsetDebug: {x: 0, y: 0, z: 0}
 --- !u!114 &821093222060691117
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14333,10 +14340,10 @@ MonoBehaviour:
       m_PostInfinity: 2
       m_RotationOrder: 4
   secondaryFireSound: {fileID: 11400000, guid: 4fbf312a3c812b9469827d2ed8b3eda7, type: 2}
-  secondaryFireParticle: {fileID: 0}
+  secondaryFireParticle: {fileID: 3765943235076651843}
   meleeImpactSound: {fileID: 11400000, guid: 6b72bbb74fe3ba248a5842af42924a03, type: 2}
   meleeImpactEffect: {fileID: 0}
---- !u!114 &821093222060691116
+--- !u!114 &821093222060691122
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -14345,16 +14352,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 6261411397578974356}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1a1b51c963888964296f7203eb73c860, type: 3}
+  m_Script: {fileID: 11500000, guid: 5bf10cdea1344482e91a4f2b58506b77, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  geomtry: {fileID: 6261411397578974338}
-  itemAttachBone: {fileID: 0}
-  uiPrefabs:
-  - {fileID: 5292656849797292724, guid: 4dda50ef4a9c4b74dbe730b463868974, type: 3}
-  - {fileID: 6495234164675305832, guid: 2e97dde106aa9f14fa8f6f801a87d29a, type: 3}
-  weaponBoneDebug: {fileID: 0}
-  weaponOffsetDebug: {x: 0, y: 0, z: 0}
 --- !u!1 &6884815350299353818
 GameObject:
   m_ObjectHideFlags: 0
@@ -19176,11 +19176,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: 1c06bd5b7d54f7f43b08010ddc4cb4d4, type: 3}
       propertyPath: skeletonColor.g
-      value: 1
+      value: 0.6095166
       objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: 1c06bd5b7d54f7f43b08010ddc4cb4d4, type: 3}
       propertyPath: skeletonColor.b
-      value: 0.19482255
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1c06bd5b7d54f7f43b08010ddc4cb4d4, type: 3}
