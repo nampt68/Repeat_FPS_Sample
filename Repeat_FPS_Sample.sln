@@ -1,0 +1,83 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.RenderPipelines.HighDefinition.Runtime", "Unity.RenderPipelines.HighDefinition.Runtime.csproj", "{7107DC27-2979-B09D-5381-43A5B27D19BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.Postprocessing.Runtime", "Unity.Postprocessing.Runtime.csproj", "{6EAAFC62-C793-3128-ADD7-AEBABA34D350}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.VisualEffectGraph.Runtime", "Unity.VisualEffectGraph.Runtime.csproj", "{E8E23A26-8702-F436-E859-5BCEB7D8841A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.Networking.Transport", "Unity.Networking.Transport.csproj", "{7FAE6EA5-CCE3-4F53-7843-686962879C97}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.Postprocessing.Runtime.Tests", "Unity.Postprocessing.Runtime.Tests.csproj", "{1E881534-F189-30E1-D764-B958BF4BDFD6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{B9A283E9-A421-9DC1-BD53-ED546F4B187E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.VisualEffectGraph.Editor", "Unity.VisualEffectGraph.Editor.csproj", "{8C6FAF49-06FA-88B0-176E-543046AC267A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.RenderPipelines.HighDefinition.Editor", "Unity.RenderPipelines.HighDefinition.Editor.csproj", "{F9F640F5-3CB7-D91D-05BB-A212B28286E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.Postprocessing.Editor", "Unity.Postprocessing.Editor.csproj", "{FB75AA90-EDE4-2B38-2E65-03C356346733}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.Postprocessing.Editor.Tests", "Unity.Postprocessing.Editor.Tests.csproj", "{1CE014AC-1E37-7E5A-3338-1C912DEBDCB7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.Networking.Transport.EditorTests", "Unity.Networking.Transport.EditorTests.csproj", "{EA371CB0-3FB1-D41A-4D66-60D5916929DE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7107DC27-2979-B09D-5381-43A5B27D19BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7107DC27-2979-B09D-5381-43A5B27D19BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7107DC27-2979-B09D-5381-43A5B27D19BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7107DC27-2979-B09D-5381-43A5B27D19BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6EAAFC62-C793-3128-ADD7-AEBABA34D350}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EAAFC62-C793-3128-ADD7-AEBABA34D350}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EAAFC62-C793-3128-ADD7-AEBABA34D350}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EAAFC62-C793-3128-ADD7-AEBABA34D350}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8E23A26-8702-F436-E859-5BCEB7D8841A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8E23A26-8702-F436-E859-5BCEB7D8841A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8E23A26-8702-F436-E859-5BCEB7D8841A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8E23A26-8702-F436-E859-5BCEB7D8841A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7FAE6EA5-CCE3-4F53-7843-686962879C97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FAE6EA5-CCE3-4F53-7843-686962879C97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FAE6EA5-CCE3-4F53-7843-686962879C97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FAE6EA5-CCE3-4F53-7843-686962879C97}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E881534-F189-30E1-D764-B958BF4BDFD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E881534-F189-30E1-D764-B958BF4BDFD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E881534-F189-30E1-D764-B958BF4BDFD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E881534-F189-30E1-D764-B958BF4BDFD6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9A283E9-A421-9DC1-BD53-ED546F4B187E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9A283E9-A421-9DC1-BD53-ED546F4B187E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9A283E9-A421-9DC1-BD53-ED546F4B187E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9A283E9-A421-9DC1-BD53-ED546F4B187E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C6FAF49-06FA-88B0-176E-543046AC267A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C6FAF49-06FA-88B0-176E-543046AC267A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C6FAF49-06FA-88B0-176E-543046AC267A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C6FAF49-06FA-88B0-176E-543046AC267A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9F640F5-3CB7-D91D-05BB-A212B28286E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9F640F5-3CB7-D91D-05BB-A212B28286E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9F640F5-3CB7-D91D-05BB-A212B28286E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9F640F5-3CB7-D91D-05BB-A212B28286E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB75AA90-EDE4-2B38-2E65-03C356346733}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB75AA90-EDE4-2B38-2E65-03C356346733}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB75AA90-EDE4-2B38-2E65-03C356346733}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB75AA90-EDE4-2B38-2E65-03C356346733}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1CE014AC-1E37-7E5A-3338-1C912DEBDCB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CE014AC-1E37-7E5A-3338-1C912DEBDCB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CE014AC-1E37-7E5A-3338-1C912DEBDCB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CE014AC-1E37-7E5A-3338-1C912DEBDCB7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA371CB0-3FB1-D41A-4D66-60D5916929DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA371CB0-3FB1-D41A-4D66-60D5916929DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA371CB0-3FB1-D41A-4D66-60D5916929DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA371CB0-3FB1-D41A-4D66-60D5916929DE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal

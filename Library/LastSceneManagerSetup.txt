@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/bootstrapper.unity
+- path: Assets/Scenes/_Prefab_Edit_Environment/PEE.unity
   isLoaded: 1
   isActive: 1
