@@ -150,7 +150,7 @@ MonoBehaviour:
   renderPipelineSettings:
     supportShadowMask: 1
     supportSSR: 1
-    supportSSAO: 0
+    supportSSAO: 1
     supportSubsurfaceScattering: 1
     increaseSssSampleCount: 0
     supportVolumetrics: 1
