@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 3.903591, g: 4.5717473, b: 6.0057364, a: 1}
+  m_IndirectSpecularColor: {r: 4.7955084, g: 6.036469, b: 9.085388, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -890,7 +890,7 @@ MonoBehaviour:
   useVolumetric: 1
   featuresFoldout: 1
   showAdditionalSettings: 13
-  displayLightIntensity: 0.000001
+  displayLightIntensity: 1000
   displayAreaLightEmissiveMesh: 0
   lightLayers: 1
   shadowNearPlane: 0.2
@@ -909,7 +909,7 @@ Light:
   serializedVersion: 8
   m_Type: 1
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 0.000001
+  m_Intensity: 1000
   m_Range: 10
   m_SpotAngle: 30
   m_CookieSize: 10
