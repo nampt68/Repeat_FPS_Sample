@@ -63,6 +63,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\ProjectLODLightmaps\ProjectLODLightmapManager.cs" />
     <Compile Include="Assets\Script\Build\BuildAttributes.cs" />
     <Compile Include="Assets\Script\Build\StripGameObjectFromBuild.cs" />
     <Reference Include="Cinemachine">
