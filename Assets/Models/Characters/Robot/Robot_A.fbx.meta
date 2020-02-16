@@ -289,6 +289,9 @@ ModelImporter:
     4300020: Robot_A_LowerArm_Right_LOD02
     4300022: Robot_A_LowerArm_Right_LOD03
     9500000: //RootNode
+    11400000: //RootNode
+    11400002: //RootNode
+    11400004: //RootNode
     13700000: Robot_A_Body_LOD00
     13700002: Robot_A_Body_LOD01
     13700004: Robot_A_Body_LOD02

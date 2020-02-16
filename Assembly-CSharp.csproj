@@ -66,8 +66,11 @@
     <Compile Include="Assets\ProjectLODLightmaps\ProjectLODLightmapManager.cs" />
     <Compile Include="Assets\Script\Build\BuildAttributes.cs" />
     <Compile Include="Assets\Script\Build\StripGameObjectFromBuild.cs" />
+    <Compile Include="Assets\Script\Game\Modules\Character\Components\Fan.cs" />
     <Compile Include="Assets\Script\Game\Modules\Character\Components\ISkeletonTypeComponent.cs" />
     <Compile Include="Assets\Script\Game\Modules\Character\Components\Skeleton.cs" />
+    <Compile Include="Assets\Script\Game\Modules\Character\Components\TranslateScale.cs" />
+    <Compile Include="Assets\Script\Game\Modules\Character\Components\Twist.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />

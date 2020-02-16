@@ -23,6 +23,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.Postprocessing.Editor
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.Networking.Transport.EditorTests", "Unity.Networking.Transport.EditorTests.csproj", "{EA371CB0-3FB1-D41A-4D66-60D5916929DE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{6DCDC523-34D1-61C3-B6FC-7031D38AB0A5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -73,6 +75,10 @@ Global
 		{EA371CB0-3FB1-D41A-4D66-60D5916929DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EA371CB0-3FB1-D41A-4D66-60D5916929DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EA371CB0-3FB1-D41A-4D66-60D5916929DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DCDC523-34D1-61C3-B6FC-7031D38AB0A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DCDC523-34D1-61C3-B6FC-7031D38AB0A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DCDC523-34D1-61C3-B6FC-7031D38AB0A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DCDC523-34D1-61C3-B6FC-7031D38AB0A5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
