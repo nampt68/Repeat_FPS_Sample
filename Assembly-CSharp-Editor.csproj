@@ -64,6 +64,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Script\EditorTools\Editor\SkeletonImporter.cs" />
+    <Compile Include="Assets\Script\Game\Modules\Character\Editor\CharacterDebugWindow.cs" />
+    <Compile Include="Assets\Script\Game\Modules\Character\Editor\FanEditor.cs" />
+    <Compile Include="Assets\Script\Game\Modules\Character\Editor\SkeletonDrawer.cs" />
+    <Compile Include="Assets\Script\Game\Modules\Character\Editor\SkeletonEditor.cs" />
+    <Compile Include="Assets\Script\Game\Modules\Character\Editor\TranslateScaleEditor.cs" />
+    <Compile Include="Assets\Script\Game\Modules\Character\Editor\TwistEditor.cs" />
     <Reference Include="Cinemachine">
       <HintPath>C:/Users/DSSTJ/Documents/Windows/Repeate_FPS_Sample/Repeat_FPS_Sample/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
     </Reference>

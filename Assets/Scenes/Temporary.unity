@@ -167,6 +167,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 11400002, guid: 7c94acecc827fe24392d2f301ea1cb07, type: 3}
+      propertyPath: drawSkeleton
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400032, guid: 7c94acecc827fe24392d2f301ea1cb07, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.2140408
+      objectReference: {fileID: 0}
+    - target: {fileID: 400032, guid: 7c94acecc827fe24392d2f301ea1cb07, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.31800017
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7c94acecc827fe24392d2f301ea1cb07, type: 3}
 --- !u!1 &1153067740
