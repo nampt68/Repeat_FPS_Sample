@@ -64,7 +64,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Script\EditorTools\Editor\SkeletonImporter.cs" />
-    <Compile Include="Assets\Script\Game\Modules\Character\Editor\CharacterDebugWindow.cs" />
     <Compile Include="Assets\Script\Game\Modules\Character\Editor\FanEditor.cs" />
     <Compile Include="Assets\Script\Game\Modules\Character\Editor\SkeletonDrawer.cs" />
     <Compile Include="Assets\Script\Game\Modules\Character\Editor\SkeletonEditor.cs" />

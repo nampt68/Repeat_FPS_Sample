@@ -66,6 +66,8 @@
     <Compile Include="Assets\ProjectLODLightmaps\ProjectLODLightmapManager.cs" />
     <Compile Include="Assets\Script\Build\BuildAttributes.cs" />
     <Compile Include="Assets\Script\Build\StripGameObjectFromBuild.cs" />
+    <Compile Include="Assets\Script\Game\Modules\Character\Behaviours\IAbility.cs" />
+    <Compile Include="Assets\Script\Game\Modules\Character\Components\CharacterPresentationSetup.cs" />
     <Compile Include="Assets\Script\Game\Modules\Character\Components\Fan.cs" />
     <Compile Include="Assets\Script\Game\Modules\Character\Components\ISkeletonTypeComponent.cs" />
     <Compile Include="Assets\Script\Game\Modules\Character\Components\Skeleton.cs" />
