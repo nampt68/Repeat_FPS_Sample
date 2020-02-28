@@ -26,7 +26,7 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169</NoWarn>
-    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -35,7 +35,7 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169</NoWarn>
-    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
   </PropertyGroup>
   <PropertyGroup>
     <NoConfig>true</NoConfig>
@@ -63,12 +63,79 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Script\EditorTools\Editor\SkeletonImporter.cs" />
-    <Compile Include="Assets\Script\Game\Modules\Character\Editor\FanEditor.cs" />
-    <Compile Include="Assets\Script\Game\Modules\Character\Editor\SkeletonDrawer.cs" />
-    <Compile Include="Assets\Script\Game\Modules\Character\Editor\SkeletonEditor.cs" />
-    <Compile Include="Assets\Script\Game\Modules\Character\Editor\TranslateScaleEditor.cs" />
-    <Compile Include="Assets\Script\Game\Modules\Character\Editor\TwistEditor.cs" />
+    <Compile Include="Assets\Scripts\Audio\Editor\SoundDefEditor.cs" />
+    <Compile Include="Assets\Scripts\Build\Editor\ScenePostProcessor.cs" />
+    <Compile Include="Assets\Scripts\EditorTools\Editor\AnimationImport.cs" />
+    <Compile Include="Assets\Scripts\EditorTools\Editor\AnimationTools.cs" />
+    <Compile Include="Assets\Scripts\EditorTools\Editor\BuildTools.cs" />
+    <Compile Include="Assets\Scripts\EditorTools\Editor\BuildWindow.cs" />
+    <Compile Include="Assets\Scripts\EditorTools\Editor\EditorLevelManager.cs" />
+    <Compile Include="Assets\Scripts\EditorTools\Editor\EnableInstancingOnAllMaterials.cs" />
+    <Compile Include="Assets\Scripts\EditorTools\Editor\EnumeratedArrayDrawer.cs" />
+    <Compile Include="Assets\Scripts\EditorTools\Editor\GeometryImporter.cs" />
+    <Compile Include="Assets\Scripts\EditorTools\Editor\LaunchWindow.cs" />
+    <Compile Include="Assets\Scripts\EditorTools\Editor\NetworkProfilerWindow.cs" />
+    <Compile Include="Assets\Scripts\EditorTools\Editor\PrefabOpener.cs" />
+    <Compile Include="Assets\Scripts\EditorTools\Editor\RevertSelectedPrefabs.cs" />
+    <Compile Include="Assets\Scripts\EditorTools\Editor\SaveLoadPoses.cs" />
+    <Compile Include="Assets\Scripts\EditorTools\Editor\SkeletonImporter.cs" />
+    <Compile Include="Assets\Scripts\EditorTools\Editor\TexturePostProcessor.cs" />
+    <Compile Include="Assets\Scripts\Experimental\CreateVariants\Editor\CreateVariants.cs" />
+    <Compile Include="Assets\Scripts\Experimental\Find\Editor\FindTools.cs" />
+    <Compile Include="Assets\Scripts\Experimental\MultiInspector\Editor\MultiInspector.cs" />
+    <Compile Include="Assets\Scripts\Experimental\SelectionSets\Editor\SelectionSetWindow.cs" />
+    <Compile Include="Assets\Scripts\Game\Modules\Character\Editor\CharacterDebugWindow.cs" />
+    <Compile Include="Assets\Scripts\Game\Modules\Character\Editor\FanEditor.cs" />
+    <Compile Include="Assets\Scripts\Game\Modules\Character\Editor\SkeletonDrawer.cs" />
+    <Compile Include="Assets\Scripts\Game\Modules\Character\Editor\SkeletonEditor.cs" />
+    <Compile Include="Assets\Scripts\Game\Modules\Character\Editor\TranslateScaleEditor.cs" />
+    <Compile Include="Assets\Scripts\Game\Modules\Character\Editor\TwistEditor.cs" />
+    <Compile Include="Assets\Scripts\Game\Modules\Projectile\Editor\ProjectileEntityFactoryEditor.cs" />
+    <Compile Include="Assets\Scripts\Game\Modules\ReplicatedEntity\Editor\ReplicatedEntityEditor.cs" />
+    <Compile Include="Assets\Scripts\Networking\Compression\Editor\Tests\Dummy.cs" />
+    <Compile Include="Assets\Scripts\Networking\Deploy\Editor\BuildUpload.cs" />
+    <Compile Include="Assets\Scripts\Networking\Deploy\Editor\BuildZip.cs" />
+    <Compile Include="Assets\Scripts\Networking\Deploy\Editor\DeployMenu.cs" />
+    <Compile Include="Assets\Scripts\Networking\Deploy\Editor\DeployTools.cs" />
+    <Compile Include="Assets\Scripts\Networking\Deploy\Editor\SimpleJSON.cs" />
+    <Compile Include="Assets\Scripts\Networking\Deploy\Editor\TusClient.cs" />
+    <Compile Include="Assets\Scripts\Networking\Deploy\Editor\TusHTTPClient.cs" />
+    <Compile Include="Assets\Scripts\Networking\Editor\Tests\BitStreamTests.cs" />
+    <Compile Include="Assets\Scripts\Networking\Editor\Tests\CommandTests.cs" />
+    <Compile Include="Assets\Scripts\Networking\Editor\Tests\DeltaTests.cs" />
+    <Compile Include="Assets\Scripts\Networking\Editor\Tests\EntityTestFramework.cs" />
+    <Compile Include="Assets\Scripts\Networking\Editor\Tests\EntityTests.cs" />
+    <Compile Include="Assets\Scripts\Networking\Editor\Tests\EventTests.cs" />
+    <Compile Include="Assets\Scripts\Networking\Editor\Tests\FloatTests.cs" />
+    <Compile Include="Assets\Scripts\Networking\Editor\Tests\NetworkConnectionTests.cs" />
+    <Compile Include="Assets\Scripts\Networking\Editor\Tests\NetworkTestUtils.cs" />
+    <Compile Include="Assets\Scripts\Networking\Editor\Tests\ReaderWriterTests.cs" />
+    <Compile Include="Assets\Scripts\Networking\Editor\Tests\SequenceBufferTests.cs" />
+    <Compile Include="Assets\Scripts\Networking\Editor\Tests\SocketTests.cs" />
+    <Compile Include="Assets\Scripts\Networking\Editor\Tests\SQPTests.cs" />
+    <Compile Include="Assets\Scripts\Networking\Editor\Tests\TestSerializable.cs" />
+    <Compile Include="Assets\Scripts\Utils\BundledResource\Editor\BundledResourceBuilder.cs" />
+    <Compile Include="Assets\Scripts\Utils\LightProbeVolume\Editor\LightProbesVolumeEditor.cs" />
+    <Compile Include="Assets\Scripts\Utils\LightProbeVolume\Editor\RefreshLightProbesVolumes.cs" />
+    <Compile Include="Assets\Scripts\Utils\StateHistory\Editor\StateHistoryInspectorWindow.cs" />
+    <Compile Include="Assets\Scripts\Utils\StateHistory\Editor\StateHistoryWindow.cs" />
+    <Compile Include="Assets\Scripts\Utils\WeakAssetReference\Editor\WeakAssetReferenceDrawer.cs" />
+    <Compile Include="Assets\Tools\CutAndPaste\Editor\CutAndPaste.cs" />
+    <Compile Include="Assets\Tools\Editor\ClearAllReflectionProbesToBlack.cs" />
+    <Compile Include="Assets\Tools\Editor\GameViewTracker.cs" />
+    <Compile Include="Assets\Tools\Editor\HotKeys.cs" />
+    <Compile Include="Assets\Tools\Editor\LPPVToolEditor.cs" />
+    <Compile Include="Assets\Tools\Editor\SceneCamFovFixer.cs" />
+    <Compile Include="Assets\Tools\HierarchyCustomizer\Editor\GroupEditor.cs" />
+    <Compile Include="Assets\Tools\LightProbeGenerator\Editor\LightProbeGeneratorAssetPostprocessor.cs" />
+    <Compile Include="Assets\Tools\LightProbePlacement\Editor\LightProbePlacementEditor.cs" />
+    <Compile Include="Assets\Tools\LodSelector\Editor\LodSelector.cs" />
+    <Compile Include="Assets\Tools\LookupAsset\Editor\LookupAssetWindow.cs" />
+    <Compile Include="Assets\Tools\MaterialPropertyOverride\Editor\MaterialPropertyOverrideAssetEditor.cs" />
+    <Compile Include="Assets\Tools\MaterialPropertyOverride\Editor\MaterialPropertyOverrideEditor.cs" />
+    <Compile Include="Assets\Tools\PlacementTools\Editor\PlacementTools.cs" />
+    <Compile Include="Assets\Tools\ReplacePrefabs\Editor\Toolbox.cs" />
+    <Compile Include="Assets\Tools\SelectionHistory\Editor\SelectionHistoryWindow.cs" />
     <Reference Include="Cinemachine">
       <HintPath>C:/Users/DSSTJ/Documents/Windows/Repeate_FPS_Sample/Repeat_FPS_Sample/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
     </Reference>
@@ -776,9 +843,17 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{90C87B41-C7B7-C16B-63E8-1CE86BB5639D}</Project>
+      <Name>Assembly-CSharp-firstpass</Name>
+    </ProjectReference>
     <ProjectReference Include="Assembly-CSharp.csproj">
       <Project>{B9A283E9-A421-9DC1-BD53-ED546F4B187E}</Project>
       <Name>Assembly-CSharp</Name>
+    </ProjectReference>
+    <ProjectReference Include="Assembly-CSharp-Editor-firstpass.csproj">
+      <Project>{124F3279-1AC1-6E20-42C9-1D1BE5AEEC98}</Project>
+      <Name>Assembly-CSharp-Editor-firstpass</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.VisualEffectGraph.Runtime.csproj">
       <Project>{E8E23A26-8702-F436-E859-5BCEB7D8841A}</Project>
@@ -791,6 +866,10 @@
     <ProjectReference Include="Unity.Postprocessing.Editor.csproj">
       <Project>{FB75AA90-EDE4-2B38-2E65-03C356346733}</Project>
       <Name>Unity.Postprocessing.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.AssetBundleBrowser.Editor.csproj">
+      <Project>{1B1270CD-94F7-F966-F7C5-5EB2227EE22E}</Project>
+      <Name>Unity.AssetBundleBrowser.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Postprocessing.Runtime.csproj">
       <Project>{6EAAFC62-C793-3128-ADD7-AEBABA34D350}</Project>

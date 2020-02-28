@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e731c574b9bd8934a8a42cf4b62761ce, type: 3}
+  m_Name: Run
+  m_EditorClassIdentifier: 
+  animMovePlaySpeed: 1
+  damping: 0.07
+  maxStep: 12.5
+  stateResetWindow: 0.15
+  animAim: {fileID: 7400000, guid: 61ef320bf9084944183a1846fede8dee, type: 3}
+  blendSpaceNodes:
+  - clip: {fileID: 7400000, guid: 049833fd8d14d9c4a9e496f1ff34f5e1, type: 3}
+    position: {x: 0, y: 1}
+    speed: 1
+    weight: 0
+    clipLength: 0
+  - clip: {fileID: 7400000, guid: 16a3fa027dce892419244ef10b8194fb, type: 3}
+    position: {x: 0.7, y: 0.7}
+    speed: 1
+    weight: 0
+    clipLength: 0
+  - clip: {fileID: 7400000, guid: 5ffa733cc6b983d4d9b3aa34d31826e5, type: 3}
+    position: {x: 0, y: 0}
+    speed: 0
+    weight: 0
+    clipLength: 0
+  - clip: {fileID: 7400000, guid: b6931271e62b9d54aa3acd54f6f0ae49, type: 3}
+    position: {x: 0.7, y: 0.7}
+    speed: 1
+    weight: 0
+    clipLength: 0
+  - clip: {fileID: 7400000, guid: a8e3548046387db44ad8d97d062e0fa4, type: 3}
+    position: {x: 0, y: 0}
+    speed: 0
+    weight: 0
+    clipLength: 0
+  - clip: {fileID: 7400000, guid: 5b2d7cc25cb8db84e899a553a8b06795, type: 3}
+    position: {x: -0.7, y: -0.7}
+    speed: 1
+    weight: 0
+    clipLength: 0
+  - clip: {fileID: 7400000, guid: eb38d537f8fb02849addbb84f0dc877f, type: 3}
+    position: {x: -1, y: 0}
+    speed: 1
+    weight: 0
+    clipLength: 0
+  - clip: {fileID: 7400000, guid: f9017037778ef934cb2c6c62842154d9, type: 3}
+    position: {x: -0.7, y: 0.7}
+    speed: 1
+    weight: 0
+    clipLength: 0
+  - clip: {fileID: 7400000, guid: 47a7585ad263853469326fcd83772d71, type: 3}
+    position: {x: 0, y: 0}
+    speed: 0
+    weight: 0
+    clipLength: 0
+  enableIK: 1
+  useVariableMoveSpeed: 0
+  actionAnimations:
+  - action: 1
+    animation: {fileID: 7400000, guid: 2eed201896ec1724b96ff31b12cc7749, type: 3}
+    restartTimeOffset: 0
+  - action: 2
+    animation: {fileID: 7400000, guid: 8b5e21caffe05ef46a343310568f248d, type: 3}
+    restartTimeOffset: 0
+  - action: 3
+    animation: {fileID: 7400000, guid: 0e2b36aa433d1f1448eb9eeb09871c17, type: 3}
+    restartTimeOffset: 0
