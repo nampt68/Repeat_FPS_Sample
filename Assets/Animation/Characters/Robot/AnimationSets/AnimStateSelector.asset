@@ -24,11 +24,11 @@ MonoBehaviour:
     transitionTime: 0.15
     customTransitions: []
   - animationState: 0
-    template: {fileID: 0}
-    transitionTime: 0
+    template: {fileID: 11400000, guid: 2ee2529108a7fd74eabccffcacdfc92c, type: 2}
+    transitionTime: 0.1
     customTransitions: []
   - animationState: 0
-    template: {fileID: 0}
+    template: {fileID: 11400000, guid: c16e12f6f452074458cf46b002baeb7c, type: 2}
     transitionTime: 0
     customTransitions: []
   - animationState: 0

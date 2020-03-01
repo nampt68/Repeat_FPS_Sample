@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33e0e53733ba7c6449c66f2b10159dde, type: 3}
+  m_Name: InAirSprint
+  m_EditorClassIdentifier: 
+  animInAir: {fileID: 7400000, guid: 0efa1d28772838e49b71512035b4b3ce, type: 3}
+  animLandAntic: {fileID: 7400000, guid: 92f4c6d60cef82844ba3d1d625d459e2, type: 3}
+  landAnticStartHeight: 0.3
+  blendDuration: 0.1
+  animAimDownToUp: {fileID: 7400000, guid: f88c316fecc12764cac7304fee4c1dcf, type: 3}
+  actionAnimations: []

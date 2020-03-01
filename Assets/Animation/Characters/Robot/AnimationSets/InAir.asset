@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: InAir
   m_EditorClassIdentifier: 
   runTemplate: {fileID: 11400000, guid: 3ce388aa01e598b43a40846d980fb54e, type: 2}
-  sprintTemplate: {fileID: 0}
-  sprintTransitionSpeed: 0
+  sprintTemplate: {fileID: 11400000, guid: e2727b520cfc7284586fb8ea02c60d56, type: 2}
+  sprintTransitionSpeed: 0.075
   resetControllerOnChange: 0
