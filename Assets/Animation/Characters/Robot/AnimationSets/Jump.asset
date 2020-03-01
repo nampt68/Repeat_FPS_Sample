@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c7f277d80b2a11f40b7dade5d0a207d0, type: 3}
   m_Name: Jump
   m_EditorClassIdentifier: 
-  runTemplate: {fileID: 0}
-  sprintTemplate: {fileID: 0}
-  sprintTransitionSpeed: 0
+  runTemplate: {fileID: 11400000, guid: 7b89c9aaec08d424d8d22c5ea7356da6, type: 2}
+  sprintTemplate: {fileID: 11400000, guid: c88533f0b63511e46a0b7831539b3b72, type: 2}
+  sprintTransitionSpeed: 0.075
   resetControllerOnChange: 0
