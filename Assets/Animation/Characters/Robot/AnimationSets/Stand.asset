@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af3fb43bbe643e348bd0c915d0e1bcf9, type: 3}
+  m_Name: Stand
+  m_EditorClassIdentifier: 
+  animIdle: {fileID: 7400000, guid: e7c09d3e673897f458b5ed44fcd21ed0, type: 3}
+  animTurnL: {fileID: 7400000, guid: 71f22b774fd445948a803eddd4e62adf, type: 3}
+  animTurnR: {fileID: 0}
+  animAimLeft: {fileID: 0}
+  animAimMid: {fileID: 0}
+  animAimRight: {fileID: 0}
+  animShootPose: {fileID: 0}
+  animTurnAngle: 90
+  aimTurnLocalThreshold: 90
+  aimYawAngle: 180
+  turnSpeed: 250
+  turnThreshold: 100
+  turnTransitionSpeed: 7.5
+  shootPoseMagnitude: 1
+  shootPoseEnterSpeed: 5
+  shootPoseExitSpeed: 5
+  shootPoseEnter:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  shootPoseExit:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  blendOutAimOnReloadPitch: 0.5
+  blendOutAimOnReloadYaw: 0.5
+  blendOutAimOnReload:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  footIK:
+    leftToeStandPos: {x: 0, y: 0, z: 0}
+    rightToeStandPos: {x: 0, y: 0, z: 0}
+    debugIdlePos: 0
+    enabled: 0
+    emitRayOffset: 0
+    maxRayDistance: 0
+    debugRayCast: 0
+    maxStepSize: 0
+    weightShiftAngle: 0
+    weightShiftHorizontal: 0
+    weightShiftVertical: 0
+    maxFootRotationOffset: 0
+    enterStateEaseIn: 0
+  leftToeBone: 
+  rightToeBone: 
+  actionAnimations: []
