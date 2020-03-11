@@ -14,54 +14,138 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animIdle: {fileID: 7400000, guid: e7c09d3e673897f458b5ed44fcd21ed0, type: 3}
   animTurnL: {fileID: 7400000, guid: 71f22b774fd445948a803eddd4e62adf, type: 3}
-  animTurnR: {fileID: 0}
-  animAimLeft: {fileID: 0}
-  animAimMid: {fileID: 0}
-  animAimRight: {fileID: 0}
-  animShootPose: {fileID: 0}
+  animTurnR: {fileID: 7400000, guid: b4dd0723a0af9db4c99a6b956ef381d3, type: 3}
+  animAimLeft: {fileID: 7400002, guid: 06c7ee6b87a6123409e71a8391d314f8, type: 3}
+  animAimMid: {fileID: 7400000, guid: e7f5eb4b0b9f5044f828ac715174a3e5, type: 3}
+  animAimRight: {fileID: 7400002, guid: f22b9b4622e33ac40a8b37699ff9d75f, type: 3}
+  animShootPose: {fileID: 7400000, guid: 4bd26bd8a24f96446954f213674a540e, type: 3}
   animTurnAngle: 90
   aimTurnLocalThreshold: 90
-  aimYawAngle: 180
-  turnSpeed: 250
-  turnThreshold: 100
-  turnTransitionSpeed: 7.5
+  aimYawAngle: 90
+  turnSpeed: 120
+  turnThreshold: 120
+  turnTransitionSpeed: 16
   shootPoseMagnitude: 1
-  shootPoseEnterSpeed: 5
-  shootPoseExitSpeed: 5
+  shootPoseEnterSpeed: 4
+  shootPoseExitSpeed: 4
   shootPoseEnter:
     serializedVersion: 2
-    m_Curve: []
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
   shootPoseExit:
     serializedVersion: 2
-    m_Curve: []
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
-  blendOutAimOnReloadPitch: 0.5
+  blendOutAimOnReloadPitch: 0.25
   blendOutAimOnReloadYaw: 0.5
   blendOutAimOnReload:
     serializedVersion: 2
-    m_Curve: []
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.2053289
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.4519809
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.6820527
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
   footIK:
-    leftToeStandPos: {x: 0, y: 0, z: 0}
-    rightToeStandPos: {x: 0, y: 0, z: 0}
+    leftToeStandPos: {x: -0.266, y: 0.31, z: 0.525}
+    rightToeStandPos: {x: 0.245, y: 0.31, z: -0.18}
     debugIdlePos: 0
-    enabled: 0
-    emitRayOffset: 0
-    maxRayDistance: 0
+    enabled: 1
+    emitRayOffset: 0.5
+    maxRayDistance: 1
     debugRayCast: 0
-    maxStepSize: 0
-    weightShiftAngle: 0
-    weightShiftHorizontal: 0
-    weightShiftVertical: 0
-    maxFootRotationOffset: 0
-    enterStateEaseIn: 0
-  leftToeBone: 
-  rightToeBone: 
-  actionAnimations: []
+    maxStepSize: 0.45
+    weightShiftAngle: 12.5
+    weightShiftHorizontal: -0.4
+    weightShiftVertical: -0.4
+    maxFootRotationOffset: 25
+    enterStateEaseIn: 0.7
+  leftToeBone: Left_Toes
+  rightToeBone: Right_Toes
+  actionAnimations:
+  - action: 1
+    animation: {fileID: 7400000, guid: a6547796faf2b1944958310180b75bca, type: 3}
+    restartTimeOffset: 0
+  - action: 2
+    animation: {fileID: 7400000, guid: 2b894ff32392ee843ba7dc91148df581, type: 3}
+    restartTimeOffset: 0
+  - action: 3
+    animation: {fileID: 7400000, guid: a52cd8be054dd1e4c8a43e45356694ab, type: 3}
+    restartTimeOffset: 0
+  - action: 0
+    animation: {fileID: 7400000, guid: b731d94643aa5b54c85a009436cf953a, type: 3}
+    restartTimeOffset: 0
