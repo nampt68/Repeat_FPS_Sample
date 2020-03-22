@@ -439,7 +439,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fireAnimationEvents: 0
-  animStateDefinition: {fileID: 0}
+  animStateDefinition: {fileID: 11400000, guid: 68b71c706c68b9944993871cc1e9eaa0,
+    type: 2}
 --- !u!1 &1876143908
 GameObject:
   m_ObjectHideFlags: 0
