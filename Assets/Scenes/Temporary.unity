@@ -441,6 +441,25 @@ MonoBehaviour:
   fireAnimationEvents: 0
   animStateDefinition: {fileID: 11400000, guid: 68b71c706c68b9944993871cc1e9eaa0,
     type: 2}
+--- !u!114 &1656497314
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1656497306}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd0684d1ed37fb9439511363d56ca29e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  minFootstepInterval: 0.2
+  footstepLeft: {fileID: 11400000, guid: 5725e08c80683e04f88bf8bbed97af09, type: 2}
+  footstepRight: {fileID: 0}
+  land: {fileID: 0}
+  doubleJump: {fileID: 0}
+  jumpStart: {fileID: 0}
+  previousLocoState: 0
 --- !u!1 &1876143908
 GameObject:
   m_ObjectHideFlags: 0
